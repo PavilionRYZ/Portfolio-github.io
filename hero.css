@@ -3,9 +3,9 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  font-family: "Be Vietnam Pro", sans-serif;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth ;
+    font-family: "Be Vietnam Pro", sans-serif;
 
 }
 :root{
@@ -76,7 +76,7 @@
     font-size: 7em;
     user-select: none;
     color: rgb(231, 231, 231);
-    bottom: -16%;
+    bottom: -22%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;

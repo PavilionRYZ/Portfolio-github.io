@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="contactme.css">
     <link rel="shortcut icon" href="image/slo.png" type="image/png">
 
     <title>Portfolio</title>
 </head>
 <body>
-  <div id="wrapper">
+  <div id="wrapper"> 
        
         <div class="container">
              <!-- nav-area  -->
@@ -69,12 +70,11 @@
                   </div>
             </div><!---->
 
-         </div><!-- container div  -->
+         </div><!-- container div  end-->
   
      </div><!---->
      <!-- project section start    -->
-   
-    <div class="project-section">
+    <div class="project-section" id="projects">
       <h2 class="project-header">Projects</h2>
       <div class="project-container">
         <div class="project-card" id="project1">
@@ -198,8 +198,119 @@
         </div>   <!--project card 04 div-->
 
       </div>  <!--  project container div  -->
-     </div>   <!--project section div  -->
-   </div> <!--  wrapper div  -->
+     </div>   <!--project section div  end-->
+     <div id="skills" class="skills-container container"> <!--skills-container start-->
+      <div class="skill-fade-text">Skills</div>
+      <div class="skill-container-left"><!--skill-container-left start-->
+        <h2 class="skill-heading">
+          <span class="caps">M</span>e and 
+          <br>
+          MyTech Stack
+        </h2>
+           <div class="skill-subHeading">
+            <p>B. Tech student at Surendra institute of engineering and management in the CSE department||
+              DS & Algo||Programming in c,c++, python,java || Frontend: Html, CSS,JS ||Backend:NodeJS, Express JS, MongoDB||Framework: Tailwind,ReactJS|| Graphic design in 
+                            adobe photoshop and blender.
+              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil vitae suscipit rerum, quidem ipsa voluptate reprehenderit tempore. Ad ratione, dolorem 
+                deleniti explicabo, itaque sint saepe assumenda ea fugit optio porro! Cupiditate, soluta odio.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil vitae suscipit rerum, quidem ipsa voluptate reprehenderit tempore. Ad ratione, 
+                   dolorem 
+                  deleniti explicabo, itaque sint saepe assumenda ea fugit optio porro! Cupiditate, soluta odio.
+                  </p> 
+           </div>
+      </div> <!--skill-container-left end-->
+      <div class="skill-container-right">  <!--skill-container-right-->
+        <img src="image/userAsset/blob vector.png" class="blob-style" alt="" />
+
+        <img src="image/stack/HTML.png" alt="" class="skills-logo" />
+        <img src="image/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="image/stack/Javascript.svg" alt="" class="skills-logo" />
+        <img src="image/stack/React.png" alt="" class="skills-logo" />
+        <img src="image/stack/NodeJs.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Next.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Redux.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="image/stack/Bootstrap.svg" class="skills-logo" />
+        <img src="image/stack/MaterialUI.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Express.png" alt="" class="skills-logo" />
+        <img src="image/stack/Git.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Github.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Graphql.svg" alt="" class="skills-logo" />
+        <img src="image/stack/MongoDB.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Vercel.svg" alt="" class="skills-logo" />
+        <img src="image/stack/ChartJs.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Bash.svg" alt="" class="skills-logo" />
+        <img src="image/stack/Docker.svg" alt="" class="skills-logo" />
+        <img src="image/stack/K8s.svg" alt="" class="skills-logo" />
+      </div><!--skill-container-right end-->
+     </div><!--skills-container end-->
+
+             <!-- contact me part start  -->
+
+      <div class="contactus-form-container" id="contactme">   <!--contactme-main-container start-->
+         <div class="containerme"> <!--contactme-2nd-container start-->
+               <h1 class="contactus-heading"> Contact me</h1>
+               <h3 class="contactus-subHeading">Questions,Thoughts,Or Just want to Say Hello?!</h3>
+
+                       <div class="contactus-form-contant">  <!-- form container start  -->
+                           <form action="" class="form">
+                                <div class="formfield-container">
+                                       <input type="text" class="formfield"
+                                        name="name"
+                                       id=""
+                                       placeholder="Enter Your Name" />
+
+                                      <input type="text" class="formfield"
+                                       name="email"
+                                       type="email"
+                                       id=""
+                                      placeholder="Enter your email address" />
+
+                                      <input type="text" class="formfield"
+                                       name="subject"
+                                      id=""
+                                      placeholder="Enter your subject">
+
+                                      <textarea name="message" id="" cols="30" rows="10"
+                                      class="formfield formfield-textarea" 
+                                      placeholder="Enter your message"></textarea>
+                                 </div>
+                                <div class="snd-butn">
+                                        <button type="submit" 
+                                        id="send-btn" 
+                                        class="buttoncm">Send Message
+                                        <i class="submit-icon fa-solid fa-paper-plane"></i>
+                                      </button>
+                                 </div>
+                             </form>
+                       </div> <!-- form container end  -->
+           </div><!--contactme-2nd-container end-->
+       </div>                 <!--contactme-main-container end-->
+             <!-- contact me part end  -->
+
+         <footer>
+             <div class="container">  <!-- footer container start  -->
+                     <div class="footer-wrapper">  <!--  footer-wrapper start  -->
+                            <div class="footer-faded-text">subhra sundar</div>
+
+                            <div class="link-wrapper">  <!--  link-wrapper start  -->
+                              <div> <a href="#projects">project</a></div>
+                              <div> <a href="#skills">skills</a></div>
+                              <div> <a href="#contactme">contactme</a></div>
+                            </div><!--  link-wrapper end  -->
+                            <div class="icon-wrapper"> <!--  icon-wrapper start  -->
+                               <i class="fa-brands fa-linkedin iconf"></i>
+                               <i class="fa-brands fa-github iconf"></i>
+                               <i class="fa-brands fa-instagram iconf"></i>
+                               <i class="fa-brands fa-twitter iconf"></i>
+                               <i class="fa-solid fa-envelope iconf"></i>
+                            </div><!--  icon-wrapper end  -->
+                     </div><!--  footer-wrapper end  -->
+              </div>  <!-- footer container start  -->
+         </footer> 
+   </div> <!--  wrapper div  end-->
 
  <!-- script portion start -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
