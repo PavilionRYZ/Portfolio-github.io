@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root{
     --bgOrange:#e84949;
 }
@@ -158,3 +161,88 @@ footer{
     transform: translateY(-1rem);
 }
 /* footer end  */
+@media(max-width:768px) {
+    .containerme{
+        width: 600px;
+        margin: auto;
+        height: auto;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .contactus-form-container{
+        width: 100%;
+       background: rgb(231, 231, 231);
+       padding-bottom: 5rem;
+        
+    }
+    .contactus-heading{
+        font-size:  3rem;
+        color: var(--bgOrange);
+        display: flex;
+        
+    }
+    .contactus-subHeading{
+        font-size: 1.8rem;
+        color: gray;
+    }
+    .contactus-form-contant{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .formfield-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+    
+    }
+    .formfield{
+        width: 70% auto;
+        font-size: 16px;
+        padding: 0 2rem;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+        font-weight: 500;
+        margin: 10px;
+    }
+    .formfield-textarea{
+        height: auto;
+        padding-top: 1rem;
+    }
+    /* footer section css  */
+    footer{
+        position: relative;
+        margin-top: -1px;
+        background-color: #343d68;
+        padding: 5rem;
+    }
+    .footer-wrapper{
+        display: flex;
+        padding-top: 1rem;
+        padding: 1.2rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-faded-text{
+        position:absolute;
+        font-size: 3rem;
+        user-select: none;
+        color: rgba(231, 231, 231, 0.138);
+        bottom: 0;
+        left: 0;
+        font-weight: bold;
+        transition: all 3s;
+    }
+}

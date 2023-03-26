@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 
 *{
@@ -74,4 +78,75 @@
 }
 .skills-logo:hover{
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .skills-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 5rem auto;
+    gap :30px;
+  }
+  .skill-container-left{
+    width: 90%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+  .skill-heading{
+    font-size: 2rem;
+    color: #e84949;
+  }
+  .caps{
+    font-size: 3rem;
+  }
+  .skill-subHeading{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: black;
+  }
+  .skill-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    position: relative;
+    gap: 20px;
+  }
+  .skill-fade-text{
+    position: absolute;
+     font-size: 5rem;
+     color: rgb(231, 231, 231);
+     bottom:-9%;
+     right: 10%;
+     user-select: none;
+  }
+  .blob-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: contrast(5000px);
+    transform: translate(-50%,-50%);
+    animation: blobAnimate 3s linear infinite;
+  }
+  @keyframes blobAnimate{
+    50%{
+      top:54%;
+      bottom: 45%;
+    }
+  }
+  .skills-logo{
+    position: relative;
+    cursor: pointer;
+    width: 60px;
+    transition: all 1s;
+  }
+  .skills-logo:hover{
+    transform: scale(1.1);
+  }
+  
 }
