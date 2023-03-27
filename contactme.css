@@ -163,34 +163,32 @@ footer{
 /* footer end  */
 @media(max-width:768px) {
     .containerme{
-        width: 600px;
+        width: 450px;
         margin: auto;
         height: auto;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
     }
     .contactus-form-container{
-        width: 100%;
+       width: 100%;
        background: rgb(231, 231, 231);
        padding-bottom: 5rem;
         
     }
     .contactus-heading{
-        font-size:  3rem;
+        font-size:  1rem;
         color: var(--bgOrange);
         display: flex;
+        margin-top: 3rem;
         
     }
     .contactus-subHeading{
-        font-size: 1.8rem;
+        font-size: 0.8rem;
         color: gray;
     }
     .contactus-form-contant{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
     .form{
         width: 100%;
@@ -208,7 +206,7 @@ footer{
     }
     .formfield{
         width: 70% auto;
-        font-size: 16px;
+        font-size: 10px;
         padding: 0 2rem;
         height: 40px;
         border-radius: 5px;
@@ -226,18 +224,52 @@ footer{
         position: relative;
         margin-top: -1px;
         background-color: #343d68;
-        padding: 5rem;
+        padding: 3rem;
+    }
+    .containerf{
+        width: 300px;
+        height: auto;
     }
     .footer-wrapper{
         display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         padding-top: 1rem;
         padding: 1.2rem;
-        justify-content: space-between;
         align-items: center;
     }
+    .link-wrapper{
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+        gap: 1rem;
+        font-size: 0.8rem;
+      }
+      .link-wrapper div a{
+          color: white;
+      }
+      .link-wrapper div a:hover{
+          color: var(--bgOrange);
+          transition: all 1s;
+      }
+      .icon-wrapper{
+        display: flex;
+        gap: 1rem;
+      }
+      .iconf{
+          cursor: pointer;
+          color: white;
+          font-size: 20px;
+          transition: all 1s;
+      }
+      .iconf:hover{
+          color: var(--bgOrange);
+          transition: all 1s;
+          transform: translateY(-1rem);
+      }
     .footer-faded-text{
         position:absolute;
-        font-size: 3rem;
+        font-size: 2rem;
         user-select: none;
         color: rgba(231, 231, 231, 0.138);
         bottom: 0;
