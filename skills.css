@@ -90,12 +90,12 @@
     gap :30px;
   }
   .skill-container-left{
-    width: 60%;
-    font-size: 0.8rem;
+    width: 40%;
+    font-size: 0.5rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 2rem 2rem 0;
+    padding: 0 6rem 2rem 0;
   }
   .caps{
     font-size: 1.5rem;
@@ -118,14 +118,14 @@
     position: relative;
     gap: 10px;
     margin: 0 auto;
-    padding: 0 2rem 2rem 0;
+    padding: 0 6rem 2rem 0;
   }
   .skill-fade-text{
     position: absolute;
      font-size: 2rem;
      color: rgb(231, 231, 231);
      bottom:-5%;
-     right: 10%;
+     right: 50%;
      user-select: none;
   }
   .blob-style{
