@@ -187,20 +187,22 @@ footer{
     .contactus-form-contant{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
+        padding: 0 2rem 2rem 0;
     }
     .form{
-        width: 100%;
+        width: 70%;
         display: flex;
         flex-direction: column;
+        padding: 0 2rem 2rem 0;
     }
     .formfield-container{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: 3px;
         width: 100%;
     
     }

@@ -204,7 +204,7 @@
         z-index: 1;
     }
     .project-card:hover::before{
-        transform: scaleX(1);
+        transform: scaleX(0.8);
     }
     .project-number{
         position: absolute;

@@ -90,17 +90,18 @@
     gap :30px;
   }
   .skill-container-left{
-    width: 80%;
-    font-size: 1rem;
+    width: 60%;
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 2rem 2rem 0;
   }
   .caps{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .skill-heading{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #e84949;
   }
   .skill-subHeading{
@@ -113,16 +114,17 @@
   .skill-container-right{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
     position: relative;
     gap: 10px;
     margin: 0 auto;
+    padding: 0 2rem 2rem 0;
   }
   .skill-fade-text{
     position: absolute;
-     font-size: 3rem;
+     font-size: 2rem;
      color: rgb(231, 231, 231);
-     bottom:-9%;
+     bottom:-5%;
      right: 10%;
      user-select: none;
   }
@@ -135,6 +137,8 @@
     filter: contrast(5000px);
     transform: translate(-50%,-50%);
     animation: blobAnimate 3s linear infinite;
+    padding: 0 2rem 2rem 0;
+
   }
   @keyframes blobAnimate{
     50%{
