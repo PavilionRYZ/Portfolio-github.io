@@ -159,17 +159,17 @@
     }
     .project-header{
         color: var(--bgOrange);
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         padding-top: 1rem;
     }
     .project-container{
-        max-width: 450px;
+        max-width: 400px;
         margin: 0 auto;
         padding: 3rem 0;
         display: flex;
         flex-direction: column;
-        gap: 5rem;
+        gap: 2rem;
     }
     .project-card{
         width: 80%;
@@ -208,7 +208,7 @@
     }
     .project-number{
         position: absolute;
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 300;
         color: white;
         z-index: 10;
@@ -219,12 +219,12 @@
         display: block;
     }
     .project-number-right{
-        right: -40px;
-        top: -45px;
+        right: -10px;
+        top: -25px;
     }
     .project-number-left{
-        left: -40px;
-        top: -45px;
+        left: -10px;
+        top: -25px;
     }
     .project-content{
         position: absolute;
@@ -253,18 +253,18 @@
         width: 10px;
     }
     .project-heading{
-        font-size: 10px;
+        font-size: 7px;
         font-weight: bold;
         line-height: 1rem;
     }
     .project-subHeading{
         width: 50%;
-        font-size: 8px;
+        font-size: 6px;
         font-style: italic;
     }
     .btn-group{
         display: flex;
-        gap: 10px;
+        gap: 5px;
         align-items: center;
     }
     .button13{
@@ -275,11 +275,8 @@
         outline: none;
         border-color: transparent;
         text-decoration: none;
-        /* border-color: white; */
-        /* border-radius: 5px ; */
         color: rgb(0, 0, 0);
         background: rgba(214, 7, 7, 0.636);
-        /* box-shadow: 5px 5px 5px 5px; */
         position: relative;
         z-index: 1;
     }
@@ -303,7 +300,7 @@
     .icon{
         cursor: pointer;
         color: white;
-        font-size: 15px;
+        font-size: 12px;
         transition: all 1s;
     }
     .icon:hover{
